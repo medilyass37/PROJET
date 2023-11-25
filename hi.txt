@@ -1,7 +1,4 @@
 hi
-
-<<<<<<< HEAD
+Dima FETCH ORIGIN LWLA 3ad dir libghiti
 yarbi hadchi yssda9
-=======
 Achraf
->>>>>>> 77ee21d50fe3d30bdda9880974ec237486889408
