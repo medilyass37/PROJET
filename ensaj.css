@@ -1,0 +1,23 @@
+@import url();
+*{
+    box-sizing: border-box;
+    font-family: "Reem kufi",serif;
+    text-decoration:dashed;
+}
+header img{
+    width: 200px;
+    
+}
+header img{
+    width: 200px;
+    }
+header{
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+header h1{
+    color:blue;
+}
