@@ -4,6 +4,9 @@
     font-family: "Reem kufi",serif;
     text-decoration:dashed;
 }
+main{
+    background-image: url(graduation.1jpg.jpg);
+}
 header img{
     width: 200px;
     
@@ -16,8 +19,28 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    
+   
 }
 header h1{
     color:blue;
+}
+nav a{
+    font-size: 1.5rem;
+    margin: 0 0.7rem;
+}
+main h2{
+    color: color-mix(in srgb-linear, red 60%, blue 90%);
+    font-size: larger;
+    font-weight: 800;
+    text-decoration: double;
+    text-shadow: brown;
+    
+}
+main p{
+    font-size: large;
+    font-weight: 500;
+    backface-visibility: initial;
+    color: aliceblue;
+    background-clip: border-box;
+    
 }
