@@ -42,11 +42,11 @@ body
 
 .slide .ensajBG
 {
-    background-color: #121212;
+    background-image: url(ensajpic.JPG);
 }
 .slide .um6pBG
 {
-    background-color: rgb(0, 179, 80);
+    background-image: url(um6ppic.JPG);
 }
 
 /*Navigation bar*/
