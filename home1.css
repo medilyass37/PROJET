@@ -1,4 +1,68 @@
 @import url();
-header img{
-    width: 200px;
+*
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Roboto, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #f4f4f4;
+}
+.container
+{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+
+/*Slider*/
+.slide
+{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 300px;
+}
+
+.slide div
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    font-size: 40px;
+}
+
+.slide .ensajBG
+{
+    background-color: #121212;
+}
+.slide .um6pBG
+{
+    background-color: rgb(0, 179, 80);
+}
+
+/*Navigation bar*/
+.nav
+{
+    display: flex;
+    height: 100px;
+    background-color: cadetblue;
+}
+.nav div
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.nav img{
+    width: 120px;
     }
+
