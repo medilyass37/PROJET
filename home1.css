@@ -47,15 +47,29 @@ a
     position: relative;
 }
 
-.slide > div .bg-image
+.slide > div div
 {
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    transition: 1s cubic-bezier(0.42, 0, 0.04, 1);
+    transition: .85s cubic-bezier(0.42, 0, 0.04, 1);
 }
+
+.slide > div .ensaj-color
+{
+    /*background-color: rgba(27, 50, 206, 0.6);*/
+    background-color: rgba(27, 50, 206, 0.6);
+    background-color: #f4f4f4;
+    opacity: 1;
+}
+
+.slide > div:hover .ensaj-color
+{
+    opacity: 1;
+}
+
 .slide > div a
 {
     position: absolute;
