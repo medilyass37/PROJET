@@ -7,10 +7,7 @@
 main{
     background-image: url(graduation.1jpg.jpg);
 }
-header img{
-    width: 200px;
-    
-}
+
 header img{
     width: 200px;
     }
@@ -40,7 +37,7 @@ main p{
     font-size: large;
     font-weight: 500;
     backface-visibility: initial;
-    color: aliceblue;
+    color: rgb(107, 38, 38);
     background-clip: border-box;
     
 }
